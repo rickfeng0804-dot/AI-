@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-natural-bg: #F7F5F0;
+  --color-natural-card: #FFFFFF;
+  --color-natural-aside: #EBE7DF;
+  --color-natural-border: #D9D1C5;
+  --color-natural-primary: #7D8C7D;
+  --color-natural-primary-dark: #5F6B5F;
+  --color-natural-primary-light: #ECF0EC;
+  --color-natural-dark: #2C2A26;
+  --color-natural-body: #3D3A35;
+  --color-natural-muted: #8A847A;
+  --color-natural-warm: #A67C52;
+  --color-natural-warm-dark: #8F663E;
+  --color-natural-warm-light: #FBFAF8;
+  --color-natural-light-grey: #F2F0EB;
+  --color-natural-hover: #E2DDD3;
+
+  --font-serif: "Noto Serif TC", "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", "Noto Sans TC", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body {
+  background-color: var(--color-natural-bg);
+  color: var(--color-natural-body);
+  font-family: var(--font-sans);
+}

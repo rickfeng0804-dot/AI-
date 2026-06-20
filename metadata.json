@@ -1,0 +1,11 @@
+{
+  "name": "智能中醫辨證與養生系統",
+  "description": "融合中醫「十問歌」智能問診、九大體質辨識、舌診與聞診多模態分析、子午流注時辰養生與中藥方劑穴位檢索的完整中醫調理平台。",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
